@@ -1,0 +1,55 @@
+
+
+#MyClockDisplay{
+
+    font-size: 60px;
+    font-weight: bold;
+    font-family:"Chakra Petch", sans-serif;
+  
+    color: rgb(0, 0, 0);
+    text-align: center;
+    /* background-color: black; */
+
+  
+}
+
+h1{
+    font-size: 70px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-family:"Chakra Petch", sans-serif;
+}
+body{
+    background-color:black;
+    background-image: linear-gradient(to right, rgb(14, 78, 90) , rgb(12, 12, 13));
+    width: 100%;
+    min-height: 100vh;
+    
+}
+#bg{
+   
+    box-shadow: 2px 0px 39px 14px rgba(255,252,255,0.48);
+    
+    background-image: linear-gradient( rgb(43, 205, 149),rgb(122, 139, 213));
+    border-radius: 10px;
+
+ 
+}
+
+@media (max-width: 600px) {
+    #MyClockDisplay {
+        font-size: 40px;
+        padding: 10px;
+    }
+
+    
+}
+
+@media (min-width: 1200px) {
+    #MyClockDisplay {
+        font-size: 80px;
+        padding: 20px;
+    }
+
+    
+}
